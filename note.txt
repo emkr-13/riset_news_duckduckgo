@@ -1,0 +1,6 @@
+/// Query Pencarian dalam web
+https://duckduckgo.com/?q=jokowi+site%3Akompas.com&t=h_&df=2024-02-01..2024-02-01&ia=web
+
+https://duckduckgo.com/?q=jokowi+site%3Akompas.com&t=h_&df=2024-02-02..2024-02-02&ia=web
+
+https://duckduckgo.com/?q=anies+site%3Akompas.com&t=h_&df=2024-02-02..2024-02-02&ia=web
