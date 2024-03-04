@@ -1,6 +1,12 @@
-/// Query Pencarian dalam web
+/// Query Pencarian dalam duckduckgo search
 https://duckduckgo.com/?q=jokowi+site%3Akompas.com&t=h_&df=2024-02-01..2024-02-01&ia=web
 
 https://duckduckgo.com/?q=jokowi+site%3Akompas.com&t=h_&df=2024-02-02..2024-02-02&ia=web
 
 https://duckduckgo.com/?q=anies+site%3Akompas.com&t=h_&df=2024-02-02..2024-02-02&ia=web
+
+/// query pencarian untuk Google Search
+https://www.google.com/search?q=jokowi+::+cnn&tbs=cdr:1,cd_min:01-02-2024,cd_max:01-02-2024&start=0&tbm=nws
+
+https://www.google.com/search?q=jokowi+site+:+kompas.com&tbs=cdr:1,cd_min:02-01-2024,cd_max:02-01-2024&start=0&tbm=nws
+
