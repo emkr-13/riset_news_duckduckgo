@@ -7,18 +7,18 @@ from duckduckgo_search import DDGS
 start_time = time.time()
 
 with DDGS() as ddgs:
-    results = [r for r in ddgs.text("jokowi site:kompas.com", max_results=100)]
+    results = [r for r in ddgs.text("jokowi site:kompas.com", max_results=1000)]
 
 # Hitung waktu yang diperlukan
 elapsed_time = time.time() - start_time
 
 # Menyimpan hasil pencarian ke dalam file JSON
-with open('search_results.json', 'w') as json_file:
-    json.dump(results, json_file, indent=4)
-
+link=[]
+for r in results:
+    link.append(r['href'])
+    
 # Hitung penggunaan memori
 memory_usage = psutil.Process().memory_info().rss
-
-print("Hasil pencarian telah disimpan dalam file 'search_results.json'.")
+print(f"jumlah link yang diambil dalam", len(link))
 print("Waktu yang diperlukan:", elapsed_time, "seconds")
 print("Penggunaan memori:", memory_usage / (1024 * 1024), "MB") 
